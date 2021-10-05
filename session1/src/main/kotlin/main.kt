@@ -1,3 +1,10 @@
+val classMate = arrayOf("alex", "somrad", "andy", "jianming", "hajar", "sabri")
+
 fun main () {
-    println("hello world")
+    for(item in classMate) {
+        println("hello " + item)
+    }
 }
+
+
+
