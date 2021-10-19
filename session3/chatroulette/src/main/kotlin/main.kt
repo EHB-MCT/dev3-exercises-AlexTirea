@@ -1,8 +1,7 @@
-fun main(){
-    val alex = person("Arno")
-    val arno = person("Arno")
+fun main () {
+    val chatPartners = arrayOf(Person("alex"), Person("arno"), Person("nico"))
 
-    val persons = arrayOf(arno, arno)
-
-    persons.random().introduce()
+    val chatPartner = chatPartners.random()
+    chatPartner.introduce()
+    chatPartner.talk()
 }
